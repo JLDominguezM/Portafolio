@@ -151,9 +151,7 @@ export const projectDetails = [
     image: projectImage1,
     description: `Architected a full-stack SaaS web app to modernize the dining experience, featuring an admin dashboard for CRUD menu management and a public interface for reservations.`,
     techstack: "React, Vite, Tailwind CSS, Firebase",
-    // previewLink: "", // Add the link to the live demo if you have one
     githubLink: "https://github.com/JLDominguezM/BonTable",
-    
   },
   {
     title: "Emergency Act (1st Place Waymo Challenge)",
@@ -172,12 +170,31 @@ export const projectDetails = [
     githubLink: "https://github.com/RoBorregos/home2",
   },
   {
-    title: "Person Detection & Tracking System",
+    title: "RoboCup Rescue Maze Challenge",
     image: projectImage4,
-    description: `Developed a system using YOLOv8 and PyTorch with 400,000+ detections to enhance public safety. Deployed a secure IoT network with 30+ cameras for real-time monitoring.`,
-    techstack: "Python, YOLOv8, PyTorch, LoRaWAN, 5G",
-    previewLink: "",
-    githubLink: "https://github.com/JLDominguezM",
+    description: `Developed an autonomous robot to navigate hazardous mazes and identify victims using visual markers. Implemented PID controllers and sensor data filters for precise motion control.`,
+    techstack: "C++, PID Control, Sensor Fusion",
+    previewLink: "https://docs.rbrgs.com/RescueMaze/2024/Control/",
+    githubLink: "https://github.com/RoBorregos/RescueMaze2024",
+  },
+];
+
+export const awardDetails = [
+  {
+    place: "1st Place",
+    event: "Waymo Challenge @ ShellHacks (Florida)",
+  },
+  {
+    place: "6th International Place",
+    event: "@HOME RoboCup (Brazil)",
+  },
+  {
+    place: "2nd National Place",
+    event: "@HOME-TMR (Mexico) ",
+  },
+  {
+    place: "2nd National Place",
+    event: "RCMJ-TMR (Mexico)",
   },
 ];
 

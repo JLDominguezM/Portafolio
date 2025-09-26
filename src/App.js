@@ -6,14 +6,12 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
+import Awards from "./Pages/Awards";
 
 function App() {
   return (
     <div>
       <Header />
-      
-      {/* Aquí renderizamos cada sección una debajo de la otra */}
-      {/* Cada div tiene un 'id' para que el scroll sepa a dónde ir */}
       <div id="home">
         <Home />
       </div>
@@ -22,6 +20,9 @@ function App() {
       </div>
       <div id="projects">
         <Projects />
+      </div>
+      <div id="awards">
+        <Awards />
       </div>
       <div id="technologies">
         <Technologies />
