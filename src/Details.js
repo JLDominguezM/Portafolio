@@ -23,7 +23,7 @@ import dagster from "./assets/techstack/dagster.svg";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.png"; // Replace these images
 import projectImage2 from "./assets/projects/project2.png";
-import projectImage3 from "./assets/projects/project3.JPG";
+import projectImage3 from "./assets/projects/project3.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
 
 // Logos
