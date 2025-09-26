@@ -1,20 +1,76 @@
 import React from "react";
-import { contactDetails } from "../Details";
 
 function Contact() {
-  const { email, phone } = contactDetails;
+  const formspreeUrl = process.env.REACT_APP_FORMSPREE_URL;
   return (
     <main className="container mx-auto max-width section">
       <h1 className="text-center text-2xl md:text-3xl lg:text-6xl text-dark-heading dark:text-light-heading font-semibold md:font-bold">
-        For any questions please drop a mail
+        Contact
       </h1>
-      <h3 className="text-center text-3xl md:text-4xl lg:text-6xl text-gradient font-semibold md:font-bold pt-5 md:pt-10 md:pb-6">
-        <a href={`mailto:${email}`}>{email}</a>
-      </h3>
-      <span className="text-center text-content text-xl font-light block">or</span>
-      <h3 className="text-center text-3xl md:text-4xl lg:text-6xl text-gradient font-semibold md:font-bold pt-2 md:py-6">
-        <a href={`tel:${phone}`}>{phone}</a>
-      </h3>
+
+      <div className="mt-10 p-8 max-w-4xl mx-auto bg-white dark:bg-dark-card rounded-lg shadow-lg">
+        <form 
+          action= {formspreeUrl}
+          method="POST"
+        >
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Campo de Nombre */}
+            <div>
+              <label htmlFor="name" className="block mb-2 text-lg text-dark-heading dark:text-light-heading">
+                Name:
+              </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                className="w-full p-3 bg-gray-100 dark:bg-dark-content rounded-lg border border-transparent focus:outline-none focus:ring-2 focus:ring-green-500"
+                placeholder="Name"
+              />
+            </div>
+
+            {/* Campo de Email */}
+            <div>
+              <label htmlFor="email" className="block mb-2 text-lg text-dark-heading dark:text-light-heading">
+                Email:
+              </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                className="w-full p-3 bg-gray-100 dark:bg-dark-content rounded-lg border border-transparent focus:outline-none focus:ring-2 focus:ring-green-500"
+                placeholder="Email"
+              />
+            </div>
+          </div>
+
+          {/* Campo de Mensaje */}
+          <div className="mt-6">
+            <label htmlFor="message" className="block mb-2 text-lg text-dark-heading dark:text-light-heading">
+              Message:
+            </label>
+            <textarea
+              name="message"
+              id="message"
+              required
+              rows="6"
+              className="w-full p-3 bg-gray-100 dark:bg-dark-content rounded-lg border border-transparent focus:outline-none focus:ring-2 focus:ring-green-500"
+              placeholder="Message"
+            ></textarea>
+          </div>
+
+          {/* Botón de Enviar */}
+          <div className="text-right mt-6">
+            <button
+              type="submit"
+              className="px-6 py-2 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition-colors duration-300"
+            >
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
     </main>
   );
 }

@@ -6,19 +6,32 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
+
 function App() {
   return (
-    <Router>
+    <div>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/technologies" element={<Technologies />} />
-      </Routes>
+      
+      {/* Aquí renderizamos cada sección una debajo de la otra */}
+      {/* Cada div tiene un 'id' para que el scroll sepa a dónde ir */}
+      <div id="home">
+        <Home />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="technologies">
+        <Technologies />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
+
       <Footer />
-    </Router>
+    </div>
   );
 }
 export default App;
