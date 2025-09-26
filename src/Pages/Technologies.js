@@ -3,7 +3,7 @@ import { techStackDetails } from "../Details";
 
 function Technologies() {
   const {
-    html, css, js, react, redux, tailwind, bootstrap, sass,
+    html, css, js, react, tailwind, bootstrap, sass,
     vscode, git, github, npm, postman, figma, python,
     cpp, docker, mongodb, ros, pytorch, java, sql, bash, csharp, matlab, r, php, c,
     node, opencv, azure, ubuntu, streamlit, angular, vite, flutter,
@@ -53,7 +53,6 @@ function Technologies() {
           <img src={mongodb} title="MongoDB" alt="MongoDB" />
           <img src={html} title="HTML" alt="HTML" />
           <img src={css} title="CSS" alt="CSS" />
-          <img src={redux} title="Redux" alt="Redux" />
           <img src={bootstrap} title="Bootstrap" alt="Bootstrap" />
           <img src={sass} title="Sass" alt="Sass" />
           <img src={node} title="Node.js" alt="Node.js" />

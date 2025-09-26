@@ -10,7 +10,6 @@ import css from "./assets/techstack/css.png";
 import sass from "./assets/techstack/sass.png";
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
 import tailwind from "./assets/techstack/tailwind.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
 import vscode from "./assets/techstack/vscode.png";
@@ -24,7 +23,7 @@ import dagster from "./assets/techstack/dagster.svg";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.png"; // Replace these images
 import projectImage2 from "./assets/projects/project2.png";
-import projectImage3 from "./assets/projects/project3.jpg";
+import projectImage3 from "./assets/projects/project3.JPG";
 import projectImage4 from "./assets/projects/project4.jpg";
 
 // Logos
