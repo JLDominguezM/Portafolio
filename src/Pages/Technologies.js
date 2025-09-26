@@ -6,7 +6,7 @@ function Technologies() {
     html, css, js, react, redux, tailwind, bootstrap, sass,
     vscode, git, github, npm, postman, figma, python,
     cpp, docker, mongodb, ros, pytorch, java, sql, bash, csharp, matlab, r, php, c,
-    node, opencv, azure, ubuntu, windows, streamlit, angular, vite, flutter,
+    node, opencv, azure, ubuntu, streamlit, angular, vite, flutter,
     unity, dagster, postgresql, arduino, pupeteer, playwright, moveit
   } = techStackDetails;
 

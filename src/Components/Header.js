@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 // import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
-import { logos, socialMediaUrl } from "../Details";
+// import { logos, socialMediaUrl } from "../Details";
 
 // function Header() {
 //   const [isOpen, setIsOpen] = useState(false);
