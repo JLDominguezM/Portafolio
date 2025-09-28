@@ -175,6 +175,42 @@ export const projectDetails = [
     previewLink: "https://docs.rbrgs.com/RescueMaze/2024/Control/",
     githubLink: "https://github.com/RoBorregos/RescueMaze2024",
   },
+  {
+    title: "Habits365 (Oracle Challenge at HackMty)",
+    image: projectImage4, 
+    description: `Developed a Progressive Web App (PWA) for habit tracking, using Python scripts for personalized location-based reminders and a custom user authentication system.`,
+    techstack: "Oracle APEX, SQL, Python, HTML/CSS",
+    previewLink: "https://oracleapex.com/ords/r/chartank2_0/habits365/login?session=5967221203109", // Agrega el enlace si tienes uno
+    githubLink: "https://github.com/JLDominguezM/Habits365", // Cambia al repo correcto
+  },
+  
+];
+
+export const communityDetails = [
+  {
+    role: "Game Developer",
+    organization: "Gametime CVA",
+    duration: "January - June 2025",
+    description: "Developing a game to teach programming logic and problem-solving skills.",
+  },
+  {
+    role: "Student Mentor",
+    organization: "Tecnológico de Monterrey",
+    duration: "2024 – 2025",
+    description: "Supporting first-year college students to adapt to their new life as college students.",
+  },
+  {
+    role: "Instructor",
+    organization: "RoboCamp",
+    duration: "Summer 2024",
+    description: "Taught middle and primary school children about electronics, mechanics, and programming.",
+  },
+  {
+    role: "Web Developer",
+    organization: "Proyecto 99",
+    duration: "Summer 2024",
+    description: "Developed the organization's website using Node.js, React, and MongoDB.",
+  },
 ];
 
 export const awardDetails = [

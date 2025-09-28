@@ -6,6 +6,7 @@ import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
 import Awards from "./Pages/Awards";
+import Community from "./Pages/Community"
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       </div>
       <div id="about">
         <About />
+      </div>
+      <div id="community">
+        <Community />
       </div>
       <div id="projects">
         <Projects />
