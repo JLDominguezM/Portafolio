@@ -183,7 +183,7 @@ export const projectDetails = [
     previewLink: "https://oracleapex.com/ords/r/chartank2_0/habits365/login?session=5967221203109", // Agrega el enlace si tienes uno
     githubLink: "https://github.com/JLDominguezM/Habits365", // Cambia al repo correcto
   },
-  
+
 ];
 
 export const communityDetails = [
@@ -191,7 +191,7 @@ export const communityDetails = [
     role: "Game Developer",
     organization: "Gametime CVA",
     duration: "January - June 2025",
-    description: "Developing a game to teach programming logic and problem-solving skills.",
+    description: "Developed a game to teach programming logic and problem-solving skills.",
   },
   {
     role: "Student Mentor",
