@@ -25,6 +25,7 @@ import projectImage1 from "./assets/projects/project1.png"; // Replace these ima
 import projectImage2 from "./assets/projects/project2.png";
 import projectImage3 from "./assets/projects/project3.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
+import projectImage5 from "./assets/projects/project5.png";
 
 // Logos
 export const logos = {
@@ -177,7 +178,7 @@ export const projectDetails = [
   },
   {
     title: "Habits365 (Oracle Challenge at HackMty)",
-    image: projectImage4, 
+    image: projectImage5, 
     description: `Developed a Progressive Web App (PWA) for habit tracking, using Python scripts for personalized location-based reminders and a custom user authentication system.`,
     techstack: "Oracle APEX, SQL, Python, HTML/CSS",
     previewLink: "https://oracleapex.com/ords/r/chartank2_0/habits365/login?session=5967221203109", // Agrega el enlace si tienes uno
